@@ -5,22 +5,22 @@ import kotlin.test.assertTrue
 class AnagramTest {
     @Test
     fun `should check if two words are anagrams`() {
-        assertTrue("kajak".isAnagram("kajka"))
-        assertTrue("kajak".isAnagramList("kajka"))
-        assertTrue("kajak".isAnagramListEquals("kajka"))
+        assertTrue("english".isAnagram("shingle"))
+        assertTrue("english".isAnagramList("shingle"))
+        assertTrue("english".isAnagramListEquals("shingle"))
     }
 
     @Test
     fun `should check if two words aren't anagrams (different size)`() {
-        assertFalse("kajk".isAnagram("kajka"))
-        assertFalse("kajk".isAnagramList("kajka"))
-        assertFalse("kajk".isAnagramListEquals("kajka"))
+        assertFalse("english".isAnagram("shinglek"))
+        assertFalse("english".isAnagramList("shinglek"))
+        assertFalse("english".isAnagramListEquals("shinglek"))
     }
 
     @Test
     fun `should check if two words aren't anagrams`() {
-        assertFalse("kajak".isAnagram("kajta"))
-        assertFalse("kajak".isAnagramListEquals("kajta"))
-        assertFalse("kajak".isAnagramList("kajta"))
+        assertFalse("english".isAnagram("shinglk"))
+        assertFalse("english".isAnagramListEquals("shinglk"))
+        assertFalse("english".isAnagramList("shinglk"))
     }
 }
