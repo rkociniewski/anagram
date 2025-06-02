@@ -57,13 +57,21 @@ Same as `isAnagramList`, but compares sorted lists directly for full equality.
 
 ## Requirements
 
-* Kotlin 2.1.0 or newer
-* JDK 17 or newer (recommended)
+* Kotlin 2.1.21 or newer
+* JDK 21 or newer (recommended)
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
 
----
+## Built With
 
-Feel free to contribute, open issues, or suggest improvements.
+* [Gradle](https://gradle.org/) - Dependency Management
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning.
+
+## Authors
+
+* **Rafał Kociniewski** - [PowerMilk](https://github.com/rkociniewski)
