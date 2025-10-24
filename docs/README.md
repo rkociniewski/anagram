@@ -1,4 +1,4 @@
-# 📚 Palindrome Checker
+# 📚 Anagram Checker
 
 ## 📖 Table of Contents
 
